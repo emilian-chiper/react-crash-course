@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaExclamationTriangle } from 'react-icons/fa';
 
-const NoutFoundPage = () => {
+const NotFoundPage = () => {
   return (
     <>
       <section className="text-center flex flex-col justify-center items-center h-96">
@@ -20,4 +20,4 @@ const NoutFoundPage = () => {
   );
 };
 
-export default NoutFoundPage;
+export default NotFoundPage;
